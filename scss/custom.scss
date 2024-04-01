@@ -1,0 +1,23 @@
+$body-bg: rgb(27,27,27);
+$body-color: white;
+$primary: green;
+
+$font-family-sans-serif: "Poppins", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right   : 1.5rem;
+        padding-left    : 1.5rem;
+    }
+}
+
+.custombg{
+    background: black url("../assets/01dd16fac98de8b86188fb29d1ecbce0.gif");
+    background-size: cover;
+}
