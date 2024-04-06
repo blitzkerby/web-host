@@ -11845,16 +11845,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
 }
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
 .custombg {
   background: black url("/car.f68537cc.gif");
   background-size: cover;
@@ -11978,6 +11978,16 @@ h1, .h1 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 200px 200px;
   gap: 30px;
+}
+
+#apple-logo {
+  width: 16px;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */

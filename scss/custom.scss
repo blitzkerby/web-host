@@ -10,16 +10,16 @@ $font-family-sans-serif: "Poppins", sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap');
 
-.navbar-collapse {
-    justify-content: flex-end;
-}
-
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-right   : 1.5rem;
         padding-left    : 1.5rem;
     }
 }
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 
 .custombg{
     background: black url("../assets/car.gif");
@@ -156,4 +156,16 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 200px 200px;
     gap: 30px;
+}
+
+
+#apple-logo{
+    width: 16px;
+}
+
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
