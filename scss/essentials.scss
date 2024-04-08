@@ -1,5 +1,6 @@
-/* @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap'); */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap');
+
 @font-face {
     font-family:  'SF Pro Display Regular';
     src        :   url(../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf)
@@ -51,7 +52,9 @@ header {
 }
 
 
-.nav-list{
+
+
+.navi-list{
     list-style: none;
     display: flex;
     align-items: center;
@@ -61,12 +64,12 @@ header {
 }
 
 
-.nav-list-mobile {
+.navi-list-mobile {
     display: none;
 }
 
 
-.nav-link {
+.navi-link {
     font-size : 1.4rem;
     color: #fff;
     padding: 0 1rem;
@@ -74,31 +77,45 @@ header {
 }
 
 
-.nav-link:hover{
+.navi-link:hover{
     opacity: 0.7;
 }
 
 
-.nav-link-apple{
+.navi-link-apple{
     width: 1.6rem;
     height: 4.4rem;
     background: url("../assets/icons/apple.svg") center no-repeat
 }
 
 
-.nav-link-search{
+.navi-link-search{
     width: 1.6rem;
     height: 4.4rem;
     background: url("../assets/icons/search.svg") center no-repeat
 }
 
 
-.nav-link-bag {
+.navi-link-bag {
     width: 1.4rem;
     height: 4.4rem;
     background: url("../assets/icons/bag.svg") center no-repeat
     
 }
+
+/* Watch Series 9 */
+.watch-series-9 {
+    color: white;
+    background: url("../assets/hero-1/large_2x.mp4");
+}
+
+.title-heading-watch-series{
+    height: 7.8rem;
+    background: url("../assets/hero/watch/logo_watch_large.png") center no-repeat;
+    /* background-size: auto auto; */
+    margin-top: 1.6rem;
+}
+
 
 
 
@@ -291,16 +308,16 @@ header {
     }
 
 
-    .nav-list{
+    .navi-list{
         margin-top: 0;
     }
 
 
-    .nav-list-mobile{
+    .navi-list-mobile{
         display: flex;
     }
 
-    .nav-item{
+    .navi-item{
         width: 4.8rem;
         height: 4.8rem;
         display: flex;
@@ -308,7 +325,7 @@ header {
     
     }
 
-    .nav-item-hidden{
+    .navi-item-hidden{
         display: none;
     }
 
@@ -362,31 +379,31 @@ header {
         background-color: #000;
     }
 
-    .nav-link-apple{
+    .navi-link-apple{
         width: 1.8rem;
         height: 4.8rem;
         position: relative;
         z-index: 1500;
     }
 
-    .nav-link-bag{
+    .navi-link-bag{
         width: 1.6rem;
         height: 4.8rem;
         transition: opacity 3s;
     }
 
-    .nav{
+    .navi{
         position: relative;
     }
 
 
-    .nav-link{
+    .navi-link{
         font-size: 1.7rem;
         padding: 0;
         margin: auto 0;
     }
 
-    .nav-list-larger{
+    .navi-list-larger{
         position: fixed;
         top: 0;
         left: 0;
@@ -402,7 +419,7 @@ header {
     }
 
 
-    .active .nav-list-larger{
+    .active .navi-list-larger{
         width: 100%;
         height: 100vh;
         opacity: 1;
@@ -410,25 +427,25 @@ header {
     }
 
 
-    .active .nav-link-bag{
+    .active .navi-link-bag{
         opacity: 0;
         transition: opacity .3s;
     }
 
 
-    .nav-list-larger .nav-item{
+    .navi-list-larger .navi-item{
         width: 100%;
         justify-content: flex-start;
         border-bottom: 2px solid rgba(225,225,225,.1);
     }
 
 
-    .nav-list-larger .nav-item:nth-child(9){
+    .navi-list-larger .navi-item:nth-child(9){
         border-bottom: none;
     }
 
 
-    .active .nav-list-larger .nav-item{
+    .active .navi-list-larger .navi-item{
         animation: fadeIn 1s ease-in;
     }
 
