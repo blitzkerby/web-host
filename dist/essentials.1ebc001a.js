@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/PPC/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../.nvm/versions/node/v20.9.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -142,7 +142,7 @@ function getBaseURL(url) {
 }
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/PPC/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../.nvm/versions/node/v20.9.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 function updateLink(link) {
   var newLink = link.cloneNode();
@@ -168,11 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/PPC/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/essentials.css":[function(require,module,exports) {
+},{"./bundle-url":"../../.nvm/versions/node/v20.9.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/essentials.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\SanFranciscoFont-master\\SanFranciscoDisplay-Regular.otf":[["SanFranciscoDisplay-Regular.be89f4e1.otf","../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"./..\\assets\\icons\\apple.svg":[["apple.fbbd6688.svg","../assets/icons/apple.svg"],"../assets/icons/apple.svg"],"./..\\assets\\icons\\search.svg":[["search.b7478add.svg","../assets/icons/search.svg"],"../assets/icons/search.svg"],"./..\\assets\\icons\\bag.svg":[["bag.2dea2823.svg","../assets/icons/bag.svg"],"../assets/icons/bag.svg"],"./..\\assets\\hero\\iphone-11-pro\\iphone_11_pro_large.jpg":[["iphone_11_pro_large.9752371f.jpg","../assets/hero/iphone-11-pro/iphone_11_pro_large.jpg"],"../assets/hero/iphone-11-pro/iphone_11_pro_large.jpg"],"./..\\assets\\hero\\iphone-11\\iphone_11_large.jpg":[["iphone_11_large.ea592763.jpg","../assets/hero/iphone-11/iphone_11_large.jpg"],"../assets/hero/iphone-11/iphone_11_large.jpg"],"./..\\assets\\hero\\watch\\watch_large.jpg":[["watch_large.74424a5e.jpg","../assets/hero/watch/watch_large.jpg"],"../assets/hero/watch/watch_large.jpg"],"./..\\assets\\hero\\watch\\logo_watch_large.png":[["logo_watch_large.4ae106c1.png","../assets/hero/watch/logo_watch_large.png"],"../assets/hero/watch/logo_watch_large.png"],"./..\\assets\\hero\\iphone-11-pro\\iphone_11_pro_medium.jpg":[["iphone_11_pro_medium.fc9e76bd.jpg","../assets/hero/iphone-11-pro/iphone_11_pro_medium.jpg"],"../assets/hero/iphone-11-pro/iphone_11_pro_medium.jpg"],"./..\\assets\\hero\\iphone-11\\iphone_11_medium.jpg":[["iphone_11_medium.699e8a6d.jpg","../assets/hero/iphone-11/iphone_11_medium.jpg"],"../assets/hero/iphone-11/iphone_11_medium.jpg"],"./..\\assets\\hero\\watch\\watch_medium.jpg":[["watch_medium.1aa1713f.jpg","../assets/hero/watch/watch_medium.jpg"],"../assets/hero/watch/watch_medium.jpg"],"./..\\assets\\hero\\watch\\logo_watch_medium.png":[["logo_watch_medium.c9764641.png","../assets/hero/watch/logo_watch_medium.png"],"../assets/hero/watch/logo_watch_medium.png"],"_css_loader":"C:/Users/PPC/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/PPC/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf":[["SanFranciscoDisplay-Regular.be89f4e1.otf","../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"./../assets/icons/apple.svg":[["apple.fbbd6688.svg","../assets/icons/apple.svg"],"../assets/icons/apple.svg"],"./../assets/icons/search.svg":[["search.b7478add.svg","../assets/icons/search.svg"],"../assets/icons/search.svg"],"./../assets/icons/bag.svg":[["bag.2dea2823.svg","../assets/icons/bag.svg"],"../assets/icons/bag.svg"],"./../assets/hero/iphone-11-pro/iphone_11_pro_large.jpg":[["iphone_11_pro_large.9752371f.jpg","../assets/hero/iphone-11-pro/iphone_11_pro_large.jpg"],"../assets/hero/iphone-11-pro/iphone_11_pro_large.jpg"],"./../assets/hero/iphone-11/iphone_11_large.jpg":[["iphone_11_large.ea592763.jpg","../assets/hero/iphone-11/iphone_11_large.jpg"],"../assets/hero/iphone-11/iphone_11_large.jpg"],"./../assets/hero/watch/watch_large.jpg":[["watch_large.74424a5e.jpg","../assets/hero/watch/watch_large.jpg"],"../assets/hero/watch/watch_large.jpg"],"./../assets/hero/watch/logo_watch_large.png":[["logo_watch_large.4ae106c1.png","../assets/hero/watch/logo_watch_large.png"],"../assets/hero/watch/logo_watch_large.png"],"./../assets/hero/iphone-11-pro/iphone_11_pro_medium.jpg":[["iphone_11_pro_medium.fc9e76bd.jpg","../assets/hero/iphone-11-pro/iphone_11_pro_medium.jpg"],"../assets/hero/iphone-11-pro/iphone_11_pro_medium.jpg"],"./../assets/hero/iphone-11/iphone_11_medium.jpg":[["iphone_11_medium.699e8a6d.jpg","../assets/hero/iphone-11/iphone_11_medium.jpg"],"../assets/hero/iphone-11/iphone_11_medium.jpg"],"./../assets/hero/watch/watch_medium.jpg":[["watch_medium.1aa1713f.jpg","../assets/hero/watch/watch_medium.jpg"],"../assets/hero/watch/watch_medium.jpg"],"./../assets/hero/watch/logo_watch_medium.png":[["logo_watch_medium.c9764641.png","../assets/hero/watch/logo_watch_medium.png"],"../assets/hero/watch/logo_watch_medium.png"],"_css_loader":"../../.nvm/versions/node/v20.9.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../.nvm/versions/node/v20.9.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49738" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49394" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -341,5 +341,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/PPC/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../.nvm/versions/node/v20.9.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/essentials.1ebc001a.js.map

@@ -271,12 +271,12 @@ header {
     header{
         height  :   4.8rem;
         transition: 
-            background .36s cubic-bezier(0.32, 0.08, 0.24, 1),
-            height .56s cubic-bezier(0.32, 0.08, 0.24, 1),
+            background 1.36s cubic-bezier(0.32, 0.08, 0.24, 1),
+            height 1.56s cubic-bezier(0.32, 0.08, 0.24, 1),
     }
 
 
-    header .container{
+    header.container{
         padding: 0;
     }
 
@@ -306,6 +306,61 @@ header {
         display: flex;
         justify-content: center;
     
+    }
+
+    .nav-item-hidden{
+        display: none;
+    }
+
+    .mobile-menu{
+        position: relative;
+        z-index: 1500 ;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .line{
+        position: absolute;
+        width: 1.7rem;
+        height: 1px;
+        background-color: #fff;
+        transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+
+    .line-top{
+        margin-top: 3px;
+    }
+
+
+    .line-bottom{
+        margin-top: -.4rem;
+    }
+
+
+    .active .line-top{
+        margin-top: 0;
+        transform: rotate(45deg);
+        transition: transform .3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+
+    .active .line-bottom{
+        margin-top: 0;
+        transform: rotate(-45deg);
+        transition: transform .3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+
+    header.active{
+        height: 100%;
+        background-color: #000;
+        
     }
 }
 

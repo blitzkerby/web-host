@@ -1,22 +1,8 @@
 import * as bootstrap from 'bootstrap'
 
-const movie = {
-    title       : "a"   ,
-    releaseYear : 2018  ,
-    rating      : 4.5   ,
-    director    : 'b'   ,
-};
+const selectElement = (Element) => document.querySelector(Element) //grabbing a particular element
 
-showProperties(movie);
-
-function showProperties(obj){
-    for (let key in obj)
-    {
-        console.log(key + " : " + obj[key]);
-    }
-}
-
-
-let firstName = "John", lastName = "Doe", age = 35
-
+selectElement(".mobile-menu").addEventListener("click",()=> {
+    selectElement("header").classList.toggle('active');
+})
 
