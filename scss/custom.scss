@@ -4,11 +4,10 @@ $primary: green;
 
 $font-family-sans-serif: "Poppins", sans-serif;
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.navbar-collapse {
-    justify-content: flex-end;
-}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap');
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link{
@@ -16,8 +15,156 @@ $font-family-sans-serif: "Poppins", sans-serif;
         padding-left    : 1.5rem;
     }
 }
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 
 .custombg{
-    background: black url("../assets/01dd16fac98de8b86188fb29d1ecbce0.gif");
+    background: black url("../assets/car.gif");
     background-size: cover;
+}
+
+
+
+// div{
+//     height: 200px ;
+//     width : 200px ;
+// }
+
+p {
+    margin: 0;
+}
+
+#first {
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px solid black
+}
+
+#second{
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 200px;
+}
+
+#third{
+    background-color: rgb(201, 86, 86);
+    border: 10px solid black;
+    margin-left: 200px;
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.0rem;
+}
+
+.poster{
+    width:100%;
+    align-items: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.motivation-img{
+    border: 5px solid white;
+    width: 300px;
+}
+
+.box{
+    margin-bottom:300px;
+}
+
+#bottom-text{
+    font-size: 1.5rem;
+}
+
+
+.flag{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#red{
+    background-color: rgb(206, 17, 39)
+}
+
+#blue{
+    height: 100px;
+    background-color: rgb(0, 39, 104);
+}
+
+.rectangle {
+    display:flex;
+    height: 40px;
+    width: 300px;
+    background-color: #555;
+    //display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.circle{
+    display:flex;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 60%;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#inner-text{
+    font-size: small;
+    margin: auto;
+    color: red;
+}
+
+.Something{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#outter-text{
+    font-size: large;
+    margin: 0 auto;
+    color: red;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.pineapple{
+    padding: 30px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 200px;
+    gap: 30px;
+}
+
+
+#apple-logo{
+    width: 16px;
+}
+
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
