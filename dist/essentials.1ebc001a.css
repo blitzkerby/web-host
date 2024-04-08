@@ -291,11 +291,6 @@ header {
     }
 
 
-    .nav-list-larger {
-        display : none;
-    }
-
-
     .nav-list{
         margin-top: 0;
     }
@@ -365,8 +360,58 @@ header {
     header.active{
         height: 100%;
         background-color: #000;
-        
     }
+
+    .nav-link-apple{
+        width: 1.8rem;
+        height: 4.8rem;
+        position: relative;
+        z-index: 1500;
+    }
+
+    .nav-link-bag{
+        width: 1.6rem;
+        height: 4.8rem;
+        transition: opacity 3s;
+    }
+
+    .nav{
+        position: relative;
+    }
+
+
+    .nav-link{
+        font-size: 1.7rem;
+        padding: 0;
+        margin: auto 0;
+    }
+
+    .nav-list-larger{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        display: block;
+        padding: 10.5rem 5rem;
+        z-index: 1000;
+        box-sizing: border-box;
+        transition: opacity .3s;
+    }
+
+
+    .active .nav-list-larger{
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+    }
+
+
+    .active .nav-link-bag{
+        opacity: 0;
+        transition: opacity .3s;
+    }
+
 }
 
 
