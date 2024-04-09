@@ -1,6 +1,5 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap');
-
+/* @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap'); */
 @font-face {
     font-family:  'SF Pro Display Regular';
     src        :   url(../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf)
@@ -34,7 +33,7 @@ a {
 }
 
 .container{
-    max-width: 98rem;
+    max-width: 1026px;
     margin: 0 auto;
     padding: 0 2.2rem;
 }
@@ -52,15 +51,16 @@ header {
 }
 
 
-
-
 .navi-list{
+    // width: 100%;
+    // font-size: small;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    // gap: 10px;
     margin: 0 -1rem;
+    padding: 0 8%;
 }
 
 
@@ -70,7 +70,7 @@ header {
 
 
 .navi-link {
-    font-size : 1.4rem;
+    font-size : 10px;
     color: #fff;
     padding: 0 1rem;
     transition: opacity .5s;
@@ -102,20 +102,6 @@ header {
     background: url("../assets/icons/bag.svg") center no-repeat
     
 }
-
-/* Watch Series 9 */
-.watch-series-9 {
-    color: white;
-    background: url("../assets/hero-1/large_2x.mp4");
-}
-
-.title-heading-watch-series{
-    height: 7.8rem;
-    background: url("../assets/hero/watch/logo_watch_large.png") center no-repeat;
-    /* background-size: auto auto; */
-    margin-top: 1.6rem;
-}
-
 
 
 
