@@ -1,5 +1,5 @@
-/* @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap'); */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&display=swap');
 @font-face {
     font-family:  'SF Pro Display Regular';
     src        :   url(../fonts/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf)
@@ -33,7 +33,7 @@ a {
 }
 
 .container{
-    max-width: 1026px;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 0 2.2rem;
 }
@@ -52,7 +52,8 @@ header {
 
 
 .navi-list{
-    // width: 100%;
+    
+    width: 100%;
     // font-size: small;
     list-style: none;
     display: flex;
@@ -124,6 +125,14 @@ header {
 }
 
 
+.title-1 {
+    font-size: 5.6rem;
+    // line-height: 0.22rem;
+    letter-spacing: -0.005rem;
+}
+
+
+
 .title-heading{
     font-size: 5.6rem;
     line-height: 1.07143;
@@ -142,6 +151,25 @@ header {
 
 
 .title-sub-heading-watch {
+    font-size: 2.65rem;
+    margin-top: -6.0rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.title-heading-watch-series-9{
+    font-size: 2.65rem;
+    margin-top: -6.0rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+.title-sub-heading-watch-series-9 {
     font-size: 2.65rem;
     margin-top: -6.0rem;
     letter-spacing: 0.008rem;
@@ -228,7 +256,7 @@ header {
 /*--------------*/
 
 
-@media screen and (max-width: 1068px){
+@media screen and (max-width: 1024px){
     .iphone-11-pro{
         background  :  url("../assets/hero/iphone-11-pro/iphone_11_pro_medium.jpg")
     }
